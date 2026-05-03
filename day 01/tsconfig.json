@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",            // Modern JS output
+    "module": "NodeNext",          // Best for modern Node.js
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",            // Keep compiled files separate
+    "rootDir": "./src",            // Source files location
+    "strict": true,                // Type safety is non-negotiable
+    "removeComments": true,        // Smaller file size
+    "skipLibCheck": true           // Faster builds
+  },
+  "include": ["src/**/*"]
+}
